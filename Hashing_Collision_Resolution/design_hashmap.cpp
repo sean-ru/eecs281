@@ -11,27 +11,23 @@ public:
     }
     
     void put(int key, int value) {
-        auto it = m.find(key);
-        if (it != m.end()) {
+        if (m.find(key) != m.end()) {
             m[key] = value;
         }
         else {
-            pair<int, int> item = make_pair(key, value);
-            m.insert(item);
+            m.insert(make_pair(key, value));
         }
     }
     
     int get(int key) {
-        auto it = m.find(key);
-        if (it == m.end()) {
+        if (m.find(key) == m.end()) {
             return -1;
         }
         return m[key];
     }
     
     void remove(int key) {
-        auto it = m.find(key);
-        if (it != m.end()) {
+        if (m.find(key) != m.end()) {
             m.erase(key);
         }
     }
