@@ -29,6 +29,7 @@
 		2DA25D0F28C040A700F7F579 /* project0.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = project0.cpp; path = "../../../../../../Downloads/Project0-starter/project0.cpp"; sourceTree = "<group>"; };
 		2DA25D1028C040A700F7F579 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; name = Makefile; path = "../../../../../../Downloads/Project0-starter/Makefile"; sourceTree = "<group>"; };
 		2DA25D1128C040A700F7F579 /* sample-r.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "sample-r.txt"; path = "../../../../../../Downloads/Project0-starter/sample-r.txt"; sourceTree = "<group>"; };
+		2DF6144628C7F2BA00C265F2 /* EECS281 Project 0 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "EECS281 Project 0"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +67,7 @@
 				2DA25D0D28C040A700F7F579 /* sample-n.txt */,
 				2DA25D1128C040A700F7F579 /* sample-r.txt */,
 				2DA25D0E28C040A700F7F579 /* xcode_redirect.hpp */,
+				2DF6144628C7F2BA00C265F2 /* EECS281 Project 0 */,
 			);
 			path = "EECS281 Project 0";
 			sourceTree = "<group>";
